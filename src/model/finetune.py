@@ -39,8 +39,7 @@ def main():
         args.data,
         model_name=args.model_name,
         model_dir=MODEL_DIR,
-        checkpoint_dir=CHECKPOINT_DIR,
-        run_name=args.run)
+        checkpoint_dir=CHECKPOINT_DIR)
 
 
 if __name__ == "__main__":
