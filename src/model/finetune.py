@@ -34,13 +34,14 @@ def main():
     # Start gpt-2 sess
     sess = gpt2.start_tf_sess()
 
+    # Download model if necessary
+    if args.model_name not in os.listdir(MODEL_DIR):
+        gpt2.download_gpt2(model_dir=MODEL_DIR, model_name=args.model_name)
+
     # Load existing model if specified
     if args.run is not None:
         print(f"Loading run {args.run}...")
         gpt2.load_gpt2(sess, run_name=args.run, model_name=args.model_name, model_dir=MODEL_DIR, checkpoint_dir=CHECKPOINT_DIR)
-    # Otherwise download new model
-    else:
-        gpt2.download_gpt2(model_dir=MODEL_DIR, model_name=args.model_name)
 
     # Fine-tune model on data file
     gpt2.finetune(sess,
