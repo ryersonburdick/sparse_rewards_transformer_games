@@ -35,7 +35,7 @@ def main():
     # Load existing model if specified
     if args.run is not None:
         print(f"Loading model {args.run}...")
-        gpt2.load_gpt2(sess) #, run_name=args.run, model_dir=MODEL_DIR, checkpoint_dir=CHECKPOINT_DIR)
+        gpt2.load_gpt2(sess, run_name=args.run, model_dir=MODEL_DIR, checkpoint_dir=CHECKPOINT_DIR)
     # Otherwise download new model
     else:
         print(f"Downloading model {args.model_name}...")
