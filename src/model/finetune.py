@@ -40,6 +40,7 @@ def main():
 
     # Load existing model if specified
     if args.run is not None:
+        tf.reset_default_graph()
         print(f"Loading run {args.run}...")
         gpt2.load_gpt2(sess, run_name=args.run, model_name=args.model_name, model_dir=MODEL_DIR, checkpoint_dir=CHECKPOINT_DIR)
 
