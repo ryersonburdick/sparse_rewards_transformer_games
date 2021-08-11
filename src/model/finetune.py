@@ -16,6 +16,14 @@ parser.add_argument("--model_name", help=f"Size of GPT-2 insance to download fro
     default=DEFAULT_MODEL_NAME, required=False)
 parser.add_argument("--run", help="Path to run folder for existing model.", default=None, required=False)
 parser.add_argument("--data", help="Path to text data file to use for fine-tuning.", required=True)
+# Hyperparameters
+parser.add_argument("--batch_size", type=int, default=1)
+parser.add_argument("--lr", type=float, default=0.0001)
+parser.add_argument("--sample_every", type=int, default=100)
+parser.add_argument("--sample_len", type=int, default=1023)
+parser.add_argument("--print_every", type=int, default=1)
+parser.add_argument("--save_every", type=int, default=500)
+parser.add_argument("--optimizer", default="adam")
 
 args = parser.parse_args()
 
@@ -39,7 +47,14 @@ def main():
         args.data,
         model_name=args.model_name,
         model_dir=MODEL_DIR,
-        checkpoint_dir=CHECKPOINT_DIR)
+        checkpoint_dir=CHECKPOINT_DIR,
+        batch_size=args.batch_size,
+        learning_rate=args.lr,
+        sample_every=args.sample_every,
+        sample_length=args.sample_len,
+        save_every=args.save_every,
+        print_every=args.print_every,
+        optimizer=args.optimizer)
 
 
 if __name__ == "__main__":
