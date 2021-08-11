@@ -34,6 +34,14 @@ def main():
     else:
         gpt2.download_gpt2(model_dir=MODEL_DIR, model_name=args.model_name)
 
+    # Fine-tune model on data file
+    gpt2.finetune(sess,
+        args.data,
+        model_name=args.model_name,
+        model_dir=MODEL_DIR,
+        checkpoint_dir=CHECKPOINT_DIR,
+        run_name=args.run)
+
 
 if __name__ == "__main__":
     main()
