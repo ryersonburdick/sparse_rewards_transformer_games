@@ -2,8 +2,10 @@
 Process raw Rubik's data by adding start and end tokens. 
 """
 
+import os
+
 # Open raw Rubik's data
-with open("/data/rubiks/raw/rubik.txt", 'r') as file:
+with open("data/rubiks/raw/rubik.txt", 'r') as file:
     text = file.read()
 
 PREFIX = "<|startoftext|>[WP] "
