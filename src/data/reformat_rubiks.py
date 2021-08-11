@@ -17,5 +17,7 @@ for line in text.split("\n"):
     prompt, response = halves[0], halves[1]
     output += (PREFIX + prompt + SEP + response + SUFFIX + "\n")
 
-with open("../../data/rubiks/processed/rubik.txt", 'w') as file:
+outpath = "data/rubiks/processed/rubik.txt"
+os.makedirs(outpath)
+with open(outpath, 'w') as file:
     file.write(output)
