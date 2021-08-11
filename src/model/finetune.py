@@ -24,6 +24,7 @@ parser.add_argument("--sample_len", type=int, default=1023)
 parser.add_argument("--print_every", type=int, default=1)
 parser.add_argument("--save_every", type=int, default=500)
 parser.add_argument("--optimizer", default="adam")
+parser.add_argument("--overwrite", type=bool, default=False)
 
 args = parser.parse_args()
 
@@ -53,7 +54,8 @@ def main():
         sample_length=args.sample_len,
         save_every=args.save_every,
         print_every=args.print_every,
-        optimizer=args.optimizer)
+        optimizer=args.optimizer,
+        overwrite=args.overwrite)
 
 
 if __name__ == "__main__":
