@@ -28,19 +28,17 @@ parser.add_argument("--optimizer", default="adam")
 args = parser.parse_args()
 
 def main():
-    # Clear tensorflow graph
-    tf.reset_default_graph()
 
     # Start gpt-2 sess
     sess = gpt2.start_tf_sess()
 
     # Load existing model if specified
     if args.run is not None:
-        tf.reset_default_graph()
-        print(f"Loading run {args.run}...")
-        gpt2.load_gpt2(sess, run_name=args.run, model_dir=MODEL_DIR, checkpoint_dir=CHECKPOINT_DIR)
+        print(f"Loading model {args.run}...")
+        gpt2.load_gpt2(sess) #, run_name=args.run, model_dir=MODEL_DIR, checkpoint_dir=CHECKPOINT_DIR)
     # Otherwise download new model
     else:
+        print(f"Downloading model {args.model_name}...")
         gpt2.download_gpt2(model_dir=MODEL_DIR, model_name=args.model_name)
 
     # Fine-tune model on data file
