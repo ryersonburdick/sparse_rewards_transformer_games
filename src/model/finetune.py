@@ -9,7 +9,7 @@ import argparse
 DEFAULT_MODEL_NAME = "124M"
 # Paths to model and checkpoint locations
 MODEL_DIR = "../../models"
-CHECKPOINT_DIR = "../../checkpoint"
+CHECKPOINT_DIR = "checkpoint"
 
 parser = argparse.ArgumentParser(description="Download or load GPT-2 instance and fine-tune on text data.")
 parser.add_argument("--model_name", help=f"Size of GPT-2 insance to download from gpt-2-simple (default '{DEFAULT_MODEL_NAME}').", 
