@@ -58,7 +58,7 @@ def main():
         # Split each sample into prompt and existing (correct) response
         split_samples = [sample.split(RESPONSE_START_TOKEN) for sample in samples]
         prompts = [sample[0] + RESPONSE_START_TOKEN for sample in split_samples]
-        print(prompts)
+
         # Generate a new response for each prompt, truncate at the end-of-line token
         def truncate_response(response):
             return response.split(END_TOKEN)[0] + END_TOKEN
