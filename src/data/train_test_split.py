@@ -27,12 +27,13 @@ def main():
 
     # Write train data
     with open(args.train_path, 'w') as file:
-        file.write("\n".join(train_samples))
+        file.write("".join(train_samples))
     
     # Write test data
     with open(args.test_path, 'w') as file:
-        file.write("\n".join(test_samples))
+        file.write("".join(test_samples))
 
 
 if __name__ == "__main__":
     main()
+
