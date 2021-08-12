@@ -26,11 +26,11 @@ def main():
     test_samples = samples[split_indx:]
 
     # Write train data
-    with open(args.train, 'w') as file:
+    with open(args.train_path, 'w') as file:
         file.write("\n".join(train_samples))
     
     # Write test data
-    with open(args.test, 'w') as file:
+    with open(args.test_path, 'w') as file:
         file.write("\n".join(test_samples))
 
 
