@@ -1,3 +1,5 @@
 tensorflow == 1.15
 pycuber
 gpt-2-simple
+matplotlib
+pandas
