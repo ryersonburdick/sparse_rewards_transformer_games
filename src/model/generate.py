@@ -22,6 +22,7 @@ parser.add_argument("--data", default=None,
 parser.add_argument("--output", default=None, help="Name of file to write generated response(s) to. Default is {run_name}_responses.txt", required=False)
 parser.add_argument("--temperature", type=float, default=0.7)
 parser.add_argument("--n_samples", type=int, default=1)
+parser.add_argument("--verbose", type=bool, default=False)
 args = parser.parse_args()
 
 
@@ -62,9 +63,10 @@ def main():
         # Generate a new response for each prompt, truncate at the end-of-line token
         def truncate_response(response):
             return response.split(END_TOKEN)[0] + END_TOKEN
-        new_pairs = [
-            truncate_response(
-                gpt2.generate(
+        new_pairs = []
+        n_prompts = len(prompts)
+        for i, prompt in enumerate(prompts):
+            gen = gpt2.generate(
                     sess, 
                     run_name=args.run_name, 
                     checkpoint_dir=CHECKPOINT_DIR, 
@@ -73,8 +75,15 @@ def main():
                     temperature=args.temperature,
                     return_as_list=True
                 )[0]
-            ) for prompt in prompts
-        ]
+            # Truncate
+            gen = truncate_response(gen)
+
+            # Show progress if applicable
+            if args.verbose:
+                print(f"[{i+1} / {n_prompts}] {gen}")
+
+            new_pairs.append(gen)
+
         output = "\n".join(new_pairs)
 
         # If output file not specified, default to {run_name}_responses.txt
