@@ -3,3 +3,5 @@ pycuber
 gpt-2-simple
 matplotlib
 pandas
+wget
+Pillow
