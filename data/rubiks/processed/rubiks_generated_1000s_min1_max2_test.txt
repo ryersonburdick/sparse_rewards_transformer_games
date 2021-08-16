@@ -1,200 +1,200 @@
-<|startoftext|>[WP]U[RESPONSE]U'<|endoftext|>
-<|startoftext|>[WP]L2 B2[RESPONSE]U D' R2 B2 D L U L' F' U F U R U' R' F U F' U2 B' U' B U F U F' U F U' F' U F U F2 U' F' L F U F U' L' B U' B U B U B U' B' U' B2<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
-<|startoftext|>[WP]U R[RESPONSE]R' U'<|endoftext|>
-<|startoftext|>[WP]L[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]U D[RESPONSE]D' U'<|endoftext|>
-<|startoftext|>[WP]L2 B[RESPONSE]B' U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]B' R[RESPONSE]R' B<|endoftext|>
-<|startoftext|>[WP]L' D'[RESPONSE]D' F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]L B'[RESPONSE]B D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]D2 U[RESPONSE]D2 U'<|endoftext|>
-<|startoftext|>[WP]U[RESPONSE]U'<|endoftext|>
-<|startoftext|>[WP]D' B2[RESPONSE]B2 D<|endoftext|>
-<|startoftext|>[WP]F L'[RESPONSE]U2 F2 D2 R B' R2 D2 U R U R' U' F' U' F B U B' U' R' U' R U B' U2 B U B' U' B U2 L' U2 L U2 L' U2 L U2 B L' B' U' B L B' L' U L F2 B2 D F2 B2 U F' B L2 F2 B2 R2 F' B U2<|endoftext|>
-<|startoftext|>[WP]F[RESPONSE]F'<|endoftext|>
-<|startoftext|>[WP]U2 D'[RESPONSE]D U2<|endoftext|>
-<|startoftext|>[WP]F2[RESPONSE]F2<|endoftext|>
-<|startoftext|>[WP]B2 L[RESPONSE]B2 D2 R D2 U F' U2 F U2 R U R' B U2 B' L U L' B' U B U2 L U L' U L' U2 L U2 F U F' U F U2 F2 U' F2 U' F2 U2 F U' L' U' B' L U L' U' L' B L2 U' L' U' L U L' U L<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
-<|startoftext|>[WP]L2[RESPONSE]U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]R[RESPONSE]R'<|endoftext|>
-<|startoftext|>[WP]R' F'[RESPONSE]F R<|endoftext|>
-<|startoftext|>[WP]D R2[RESPONSE]R2 D'<|endoftext|>
-<|startoftext|>[WP]L' D[RESPONSE]F2 D R' D2 F U F' R U R' U' F' U' F2 U F' U B U2 B' U2 R' U' R L U' L' U L U L' U L' R B L R' U2 L' R B L R' U' R' F R' B2 R F' R' B2 R2<|endoftext|>
-<|startoftext|>[WP]U2 F[RESPONSE]F' U2<|endoftext|>
-<|startoftext|>[WP]B2[RESPONSE]B2<|endoftext|>
-<|startoftext|>[WP]L2 D'[RESPONSE]U B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]U2[RESPONSE]U2<|endoftext|>
-<|startoftext|>[WP]B2 U[RESPONSE]U' B2<|endoftext|>
-<|startoftext|>[WP]R[RESPONSE]R'<|endoftext|>
-<|startoftext|>[WP]F2 D[RESPONSE]D' F2<|endoftext|>
-<|startoftext|>[WP]F[RESPONSE]F'<|endoftext|>
-<|startoftext|>[WP]F'[RESPONSE]F<|endoftext|>
-<|startoftext|>[WP]D[RESPONSE]D'<|endoftext|>
-<|startoftext|>[WP]B'[RESPONSE]B<|endoftext|>
-<|startoftext|>[WP]R2[RESPONSE]R2<|endoftext|>
-<|startoftext|>[WP]R[RESPONSE]R'<|endoftext|>
-<|startoftext|>[WP]B'[RESPONSE]B<|endoftext|>
-<|startoftext|>[WP]R'[RESPONSE]R<|endoftext|>
-<|startoftext|>[WP]D[RESPONSE]D'<|endoftext|>
-<|startoftext|>[WP]U2[RESPONSE]U2<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]U2 L[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' L U L' B' L U L' U' L' B L2 U' L' U'<|endoftext|>
-<|startoftext|>[WP]U' B[RESPONSE]B' U<|endoftext|>
-<|startoftext|>[WP]D'[RESPONSE]D<|endoftext|>
-<|startoftext|>[WP]D' F[RESPONSE]F' D<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]U[RESPONSE]U'<|endoftext|>
-<|startoftext|>[WP]L2[RESPONSE]U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]B'[RESPONSE]B<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]R'[RESPONSE]R<|endoftext|>
-<|startoftext|>[WP]L2 B2[RESPONSE]U D' R2 B2 D L U L' F' U F U R U' R' F U F' U2 B' U' B U F U F' U F U' F' U F U F2 U' F' L F U F U' L' B U' B U B U B U' B' U' B2<|endoftext|>
-<|startoftext|>[WP]F2 R[RESPONSE]R' F2<|endoftext|>
-<|startoftext|>[WP]D F'[RESPONSE]F D'<|endoftext|>
-<|startoftext|>[WP]L2[RESPONSE]U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]B2 L2[RESPONSE]U D' R2 B2 D L U L' F' U F U R U' R' U F U' F' B U' B' U2 L U L' U B' U2 B U F U2 F' U F U' F' U' F' L' B L F L' B' L F' U' F R2 D B' U B U' B D' R2<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]R L2[RESPONSE]R' U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]D'[RESPONSE]D<|endoftext|>
-<|startoftext|>[WP]B2 R[RESPONSE]R' B2<|endoftext|>
-<|startoftext|>[WP]B[RESPONSE]B'<|endoftext|>
-<|startoftext|>[WP]F'[RESPONSE]F<|endoftext|>
-<|startoftext|>[WP]B[RESPONSE]B'<|endoftext|>
-<|startoftext|>[WP]U2[RESPONSE]U2<|endoftext|>
-<|startoftext|>[WP]R[RESPONSE]R'<|endoftext|>
-<|startoftext|>[WP]D R'[RESPONSE]R D'<|endoftext|>
-<|startoftext|>[WP]R' B2[RESPONSE]B2 R<|endoftext|>
-<|startoftext|>[WP]D2 L[RESPONSE]D2 B2 R B2 U F' U2 F U2 R U R' B U2 B' R' U2 R U' B U B' U2 L U L' U2 L U' L' U L' U2 L U2 F U F' U' F' L F R' F' L' F R U2 F U' B U2 F' U F B' U' B U2 F' U B' U<|endoftext|>
-<|startoftext|>[WP]L F'[RESPONSE]F D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]D B2[RESPONSE]B2 D'<|endoftext|>
-<|startoftext|>[WP]R2 U2[RESPONSE]U2 R2<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
-<|startoftext|>[WP]L D[RESPONSE]D B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]D2 R[RESPONSE]R' D2<|endoftext|>
-<|startoftext|>[WP]D' R'[RESPONSE]R D<|endoftext|>
-<|startoftext|>[WP]R2[RESPONSE]R2<|endoftext|>
-<|startoftext|>[WP]D[RESPONSE]D'<|endoftext|>
-<|startoftext|>[WP]F'[RESPONSE]F<|endoftext|>
-<|startoftext|>[WP]D F2[RESPONSE]F2 D'<|endoftext|>
-<|startoftext|>[WP]D[RESPONSE]D'<|endoftext|>
-<|startoftext|>[WP]F' U'[RESPONSE]U F<|endoftext|>
-<|startoftext|>[WP]D2 B[RESPONSE]B' D2<|endoftext|>
-<|startoftext|>[WP]F[RESPONSE]F'<|endoftext|>
-<|startoftext|>[WP]R[RESPONSE]R'<|endoftext|>
-<|startoftext|>[WP]D'[RESPONSE]D<|endoftext|>
-<|startoftext|>[WP]L[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]D[RESPONSE]D'<|endoftext|>
-<|startoftext|>[WP]L2 F[RESPONSE]F' U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]U2 D'[RESPONSE]D U2<|endoftext|>
-<|startoftext|>[WP]B[RESPONSE]B'<|endoftext|>
-<|startoftext|>[WP]L' D'[RESPONSE]D' F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]D U[RESPONSE]D' U'<|endoftext|>
-<|startoftext|>[WP]D' R'[RESPONSE]R D<|endoftext|>
-<|startoftext|>[WP]U[RESPONSE]U'<|endoftext|>
-<|startoftext|>[WP]L' F2[RESPONSE]U2 D2 R' B2 D2 F U F2 U' F2 U F' U B U2 B' U2 R' U' R U L U L' U2 L U L' F U F' U2 F U' F' U F U2 F' U F U' R U' R' F' U' F' U F' U' R' F' R2 U' R' U R' F R F<|endoftext|>
-<|startoftext|>[WP]L' D2[RESPONSE]F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]D'[RESPONSE]D<|endoftext|>
-<|startoftext|>[WP]F2[RESPONSE]F2<|endoftext|>
-<|startoftext|>[WP]U2[RESPONSE]U2<|endoftext|>
-<|startoftext|>[WP]L2 R'[RESPONSE]R U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]F2[RESPONSE]F2<|endoftext|>
-<|startoftext|>[WP]L2[RESPONSE]U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]F[RESPONSE]F'<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]R[RESPONSE]R'<|endoftext|>
-<|startoftext|>[WP]B'[RESPONSE]B<|endoftext|>
-<|startoftext|>[WP]B D[RESPONSE]D' B'<|endoftext|>
-<|startoftext|>[WP]R2 L[RESPONSE]R2 D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]R' U'[RESPONSE]U R<|endoftext|>
-<|startoftext|>[WP]U'[RESPONSE]U<|endoftext|>
-<|startoftext|>[WP]F[RESPONSE]F'<|endoftext|>
-<|startoftext|>[WP]U2 R'[RESPONSE]R U2<|endoftext|>
-<|startoftext|>[WP]D R[RESPONSE]R' D'<|endoftext|>
-<|startoftext|>[WP]F'[RESPONSE]F<|endoftext|>
-<|startoftext|>[WP]L' R[RESPONSE]R' D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]D' L[RESPONSE]D2 B2 R B2 D' R U2 R' U' R U R' U B U' B' U2 B U' B2 U2 B U2 L U L' F U2 F' U2 L' U' L F U2 F2 L F L' F U' F' L' F U F' U' F' L F2 U' F' U'<|endoftext|>
-<|startoftext|>[WP]L[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]B L[RESPONSE]B' U D' R B' R' D U L U L' U' B' U' B U L' U2 L U2 F U F' L F U F' U' L' U' L' U' L F2 D R' U R U' R D' F2<|endoftext|>
-<|startoftext|>[WP]B F'[RESPONSE]F B'<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]U F2[RESPONSE]F2 U'<|endoftext|>
-<|startoftext|>[WP]F'[RESPONSE]F<|endoftext|>
-<|startoftext|>[WP]F2 R2[RESPONSE]R2 F2<|endoftext|>
-<|startoftext|>[WP]F'[RESPONSE]F<|endoftext|>
-<|startoftext|>[WP]R2 D'[RESPONSE]D R2<|endoftext|>
-<|startoftext|>[WP]R'[RESPONSE]R<|endoftext|>
-<|startoftext|>[WP]L' B[RESPONSE]B' D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]L B2[RESPONSE]U2 D2 R F2 D2 U F' U2 F U2 R U R' L U' L' U R' U2 R U B' U2 B U2 L U L' U F U F' U2 F U F' U' L F U F' U L' U2 L' B L B' F2 U F U F' U' F' U' F' U F'<|endoftext|>
-<|startoftext|>[WP]F' L'[RESPONSE]F D2 F R' F' D2 U B U B' U' R' U' R U B' U2 B U B' U' B U F U' F' U2 F U' F' U' R U B U' B' R' L F U F' U' F U F' U' L' B' U F' U2 B U' B' U2 F B U'<|endoftext|>
-<|startoftext|>[WP]U[RESPONSE]U'<|endoftext|>
-<|startoftext|>[WP]B' U[RESPONSE]U' B<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
-<|startoftext|>[WP]L' B'[RESPONSE]B D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]D'[RESPONSE]D<|endoftext|>
-<|startoftext|>[WP]R' F2[RESPONSE]R F' U' F2 U F L' U2 L U2 R U B U' B' U B U' B' R' U R B U' B' U' B U B' R' B U B' U' B' R B R'<|endoftext|>
-<|startoftext|>[WP]B'[RESPONSE]B<|endoftext|>
-<|startoftext|>[WP]D'[RESPONSE]D<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
-<|startoftext|>[WP]B2 D[RESPONSE]D' B2<|endoftext|>
-<|startoftext|>[WP]R'[RESPONSE]R<|endoftext|>
-<|startoftext|>[WP]B' R[RESPONSE]R' B<|endoftext|>
-<|startoftext|>[WP]L D2[RESPONSE]B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]D' L'[RESPONSE]D2 F2 R' F2 D' U B U B' U' R' U' R L U L' U2 B' U' B U' F U2 F' U' F U F' U B L B' F U F' U' B L' B' U2 R' U' R B2 D L' U L U' L D' B2<|endoftext|>
-<|startoftext|>[WP]B[RESPONSE]B'<|endoftext|>
-<|startoftext|>[WP]L2 U2[RESPONSE]D2 R2 D2 B U B' R U2 R' U2 F' U' F U R' U2 R U R' U' R F U F' L U2 L' U2 B' U' B U L' U2 L U L' U' L U2 F' B L F B' U2 F' B L F' B' U F U F' U' F' U' F' U F'<|endoftext|>
-<|startoftext|>[WP]U2[RESPONSE]U2<|endoftext|>
-<|startoftext|>[WP]B[RESPONSE]B'<|endoftext|>
-<|startoftext|>[WP]B'[RESPONSE]B<|endoftext|>
-<|startoftext|>[WP]R' F'[RESPONSE]F R<|endoftext|>
-<|startoftext|>[WP]F'[RESPONSE]F<|endoftext|>
-<|startoftext|>[WP]L U'[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U2 L U L' U L' U' L F2 D F' U2 F D' F' U2 F U F U F' U' F' U' F' U F'<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]B'[RESPONSE]B<|endoftext|>
-<|startoftext|>[WP]U'[RESPONSE]U<|endoftext|>
-<|startoftext|>[WP]F2 L[RESPONSE]F2 D2 B2 R B2 D2 U B' U2 B U2 L U L2 U' B U L U' L' B' L U' F R' F' L F R F' L' F R F' L F R' F' L'<|endoftext|>
-<|startoftext|>[WP]L[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]D'[RESPONSE]D<|endoftext|>
-<|startoftext|>[WP]B2[RESPONSE]B2<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
-<|startoftext|>[WP]D L2[RESPONSE]U D' B2 L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
-<|startoftext|>[WP]B R'[RESPONSE]R B'<|endoftext|>
-<|startoftext|>[WP]R2[RESPONSE]R2<|endoftext|>
-<|startoftext|>[WP]B2[RESPONSE]B2<|endoftext|>
-<|startoftext|>[WP]U L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U F2 U F U F' U' F' U' F' U F'<|endoftext|>
-<|startoftext|>[WP]L F2[RESPONSE]F2 D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]D R2[RESPONSE]R2 D'<|endoftext|>
-<|startoftext|>[WP]L[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]U F'[RESPONSE]F U'<|endoftext|>
-<|startoftext|>[WP]L'[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
-<|startoftext|>[WP]F D[RESPONSE]D' F'<|endoftext|>
-<|startoftext|>[WP]U F2[RESPONSE]F2 U'<|endoftext|>
-<|startoftext|>[WP]L' F2[RESPONSE]U2 D2 R' B2 D2 F U F2 U' F2 U F' U B U2 B' U2 R' U' R U L U L' U2 L U L' F U F' U2 F U' F' U F U2 F' U F U' R U' R' F' U' F' U F' U' R' F' R2 U' R' U R' F R F<|endoftext|>
-<|startoftext|>[WP]R D'[RESPONSE]D R'<|endoftext|>
-<|startoftext|>[WP]L U'[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U2 L U L' U L' U' L F2 D F' U2 F D' F' U2 F U F U F' U' F' U' F' U F'<|endoftext|>
-<|startoftext|>[WP]L2 B'[RESPONSE]B U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]U' F'[RESPONSE]F U<|endoftext|>
-<|startoftext|>[WP]F[RESPONSE]F'<|endoftext|>
-<|startoftext|>[WP]R2[RESPONSE]R2<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
-<|startoftext|>[WP]D[RESPONSE]D'<|endoftext|>
-<|startoftext|>[WP]D2 U'[RESPONSE]D2 U<|endoftext|>
-<|startoftext|>[WP]F B'[RESPONSE]F' B<|endoftext|>
-<|startoftext|>[WP]L[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
-<|startoftext|>[WP]R U'[RESPONSE]U R'<|endoftext|>
-<|startoftext|>[WP]L2[RESPONSE]U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
-<|startoftext|>[WP]L U'[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U2 L U L' U L' U' L F2 D F' U2 F D' F' U2 F U F U F' U' F' U' F' U F'<|endoftext|>
-<|startoftext|>[WP]R2 F[RESPONSE]R2 F' U2 F' U2 F U B U2 B' U2 B U' B' U B U2 B2 U' B2 U' B2 U2 B U2 L U L' B' L U2 L' U2 L' B L U L U2 L' U'<|endoftext|>
-<|startoftext|>[WP]B D[RESPONSE]D' B'<|endoftext|>
-<|startoftext|>[WP]U2 R2[RESPONSE]R2 U2<|endoftext|>
-<|startoftext|>[WP]B2 D[RESPONSE]D' B2<|endoftext|>
-<|startoftext|>[WP]D'[RESPONSE]D<|endoftext|>
-<|startoftext|>[WP]U' F'[RESPONSE]F U<|endoftext|>
-<|startoftext|>[WP]B2[RESPONSE]B2<|endoftext|>
-<|startoftext|>[WP]B D2[RESPONSE]D2 B'<|endoftext|>
-<|startoftext|>[WP]D[RESPONSE]D'<|endoftext|>
-<|startoftext|>[WP]B U'[RESPONSE]U B'<|endoftext|>
-<|startoftext|>[WP]D2[RESPONSE]D2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUULLLRRRRRRBBBFFFFFFDDDDDDDDDFFFBBBBBBRRRLLLLLL[RESPONSE]U2<|endoftext|>
+<|startoftext|>[WP]UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDBBBBBBBBBLLULLULLU[RESPONSE]F<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRBBBFFFFFFRRRDDDDDDDDDBBBBBBLLLLLLLLLFFF[RESPONSE]D<|endoftext|>
+<|startoftext|>[WP]RUURUURUUFFFRRDRRDULLFFFFFFDDDDDDLLLRRDBBBBBBBBBULLULL[RESPONSE]U B'<|endoftext|>
+<|startoftext|>[WP]UURUUDLLDRRURRURRUFFBFFBFFBRRUDDUDDLFBBFBBFBBLLDLLDLLD[RESPONSE]R2 F'<|endoftext|>
+<|startoftext|>[WP]DUUDUUDUURRRRRRLLLFFFBFFBBBUDDUDDUDDBBBBBFFFFRRRLLLLLL[RESPONSE]U D' B2 D' L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDFBBRRRRRRRRRFFBFFBDDUDDUDDULLLFBBFBBFFBLLLLLL[RESPONSE]U' R2<|endoftext|>
+<|startoftext|>[WP]FFFUUUUUUFFDRRRRRRLLLFFDFFDDDBDDBDDBRRRUBBUBBUBBLLLLLL[RESPONSE]U R'<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUUBBBRRRRRRRRRFFFFFFDDDDDDDDDLLLBBBBBBFFFLLLLLL[RESPONSE]U'<|endoftext|>
+<|startoftext|>[WP]FUDFUDFUDRRRRRRRRRDFBDFBDFBBDUBDUBDUFBUFBUFBULLLLLLLLL[RESPONSE]R2 D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLRRLRRLRRFFFFFFFFFUUUDDDDDDBBBBBBBBBLLRLLRLLR[RESPONSE]F2<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLRRLRRLRRFFFFFFFFFUUUDDDDDDBBBBBBBBBLLRLLRLLR[RESPONSE]F2<|endoftext|>
+<|startoftext|>[WP]UUFUUFUUFRRRRRRLLLFFDFFDUBBBDDBDDBDDUBBUBBFFDLLLLLLRRR[RESPONSE]D2 R'<|endoftext|>
+<|startoftext|>[WP]UUUUUUBRRDBBDRRDRRRFFRFFRFFFLLDDDDDDLLLBBBBBBFFULLULLU[RESPONSE]F U'<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRBRRLFFLFFFFFFLLLDDDDDDUUURRRBBBBBBFLLRLLRBB[RESPONSE]B2 D'<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRRRRDFFDFFDFFBDDBDDBDDBBUBBUBBULLLLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRDFFDFFDFFLLLBBBDDDDDDBBUBBURRRLLLLLLBBU[RESPONSE]F2 D R' D2 F U F' R U R' U' F' U' F2 U F' U B U2 B' U2 R' U' R L U' L' U L U L' U L' R B L R' U2 L' R B L R' U' R' F R' B2 R F' R' B2 R2<|endoftext|>
+<|startoftext|>[WP]UUBUUBUUBRRRRRRRRRFFUFFUFFUDDFDDFDDFDBBDBBDBBLLLLLLLLL[RESPONSE]R<|endoftext|>
+<|startoftext|>[WP]DDDUUUDDDLRLLRLLRLFFFFFFFFFUUUDDDUUUBBBBBBBBBRLRRLRRLR[RESPONSE]F2 B2<|endoftext|>
+<|startoftext|>[WP]UUUUUURRBDRRDRRDBBFFRFFRFFRLLFDDDDDDBBBBBBLLLLLULLUFFU[RESPONSE]F D<|endoftext|>
+<|startoftext|>[WP]UUDUUDUUDLLLRRRRRRFFFFFBBBBDDUDDUDDUBBBFBBFFFLLLLLLRRR[RESPONSE]R2 D2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUULLLRRRRRRBBBFFFFFFDDDDDDDDDFFFBBBBBBRRRLLLLLL[RESPONSE]U2<|endoftext|>
+<|startoftext|>[WP]UUBUUBUUBRRRRRRRRRFFUFFUFFUDDFDDFDDFDBBDBBDBBLLLLLLLLL[RESPONSE]R<|endoftext|>
+<|startoftext|>[WP]RUUDUUDLLURRURRURRBFFBFFBFFURRUDDLDDBBFBBFBBFDLLDLLDLL[RESPONSE]U2 D2 R2 B D2 B U' B' U F' U2 F B U2 B' U' B U B' F U F' L U2 L' U2 B' U' B U F U F' L' U' L U F U F2 U' F' L F U F U' L' U' R' U L' U2 R U' R' U2 L R U'<|endoftext|>
+<|startoftext|>[WP]LLLUUURRRDRUDRUDRUFFFFFFFFFLLLDDDRRRBBBBBBBBBDLUDLUDLU[RESPONSE]F B<|endoftext|>
+<|startoftext|>[WP]BUDBUDBUDRRRRRRRRRUFBUFBUFBFDUFDUFDUFBDFBDFBDLLLLLLLLL[RESPONSE]R2 D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUULLLRRRBBBBBBFFFRRRDDDDDDDDDFFFBBBLLLRRRLLLFFF[RESPONSE]D U2<|endoftext|>
+<|startoftext|>[WP]FUUFUUBUURRRRRRLLLDFFDFFDBBFDDBDDBDDBBUBBUFFULLRLLRLLR[RESPONSE]D2 F2 R' F2 U R U2 R' F' U2 F U' R U R' U R' U R U B U' B2 U B U L U' L' U L' U' L U L' U2 L U F U F' U F' L F L' F U2 F' U F U F' L' F U F' U' F' L F2 U' F' U'<|endoftext|>
+<|startoftext|>[WP]LLLUUUUUURRURRURRUFFFFFFFFFDDDDDDRRRBBBBBBBBBDLLDLLDLL[RESPONSE]B<|endoftext|>
+<|startoftext|>[WP]UULUUDRRDRRDRRDRRDFFBFFBFFBLLUDDUDDRFBBFBBFBBLLULLULLU[RESPONSE]R2 F<|endoftext|>
+<|startoftext|>[WP]BUUBUUBUURRRRRRRRRUFFUFFUFFFDDFDDFDDBBDBBDBBDLLLLLLLLL[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRFFFFFFFFFLLLDDDDDDDDDBBBBBBRRRLLLLLLBBB[RESPONSE]D'<|endoftext|>
+<|startoftext|>[WP]UUUUUUBLLURRURRUFFLFFLFFLFFFRRDDDDDDBBBBBBRRRLLDLLDBBD[RESPONSE]F' D'<|endoftext|>
+<|startoftext|>[WP]UUBUUBRRBRRRRRRDDDFFUFFUFFRLLFDDFDDFDBBDBBLBBLLULLULLU[RESPONSE]R F<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLRRLRRLRRFFFFFFFFFUUUDDDDDDBBBBBBBBBLLRLLRLLR[RESPONSE]F2<|endoftext|>
+<|startoftext|>[WP]RRBUUBUUBDDDRRRRRRFFRFFUFFUDDFDDFLLFLBBDBBDBBULLULLULL[RESPONSE]R B'<|endoftext|>
+<|startoftext|>[WP]UUBUUBFDDLRRLRRLRRUFFUFFUFFBUUDDFDDFDBBDBBDBBLLRLLRLLR[RESPONSE]R F' U' F2 U F L' U2 L U2 R U B U' B' U B U' B' R' U R B U' B' U' B U B' R' B U B' U' B' R B R'<|endoftext|>
+<|startoftext|>[WP]UURUUFUUFRRBRRBRRBRRDFFDFFDDDBDDBDDLULLUBBUBBFFFLLLLLL[RESPONSE]R' U'<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDBBBFFFFFFRRDDDLDDLDDLBBBBBBULLULLULLFFF[RESPONSE]D B'<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRDFFDFFDFFLLLBBBDDDDDDBBUBBURRRLLLLLLBBU[RESPONSE]F2 D R' D2 F U F' R U R' U' F' U' F2 U F' U B U2 B' U2 R' U' R L U' L' U L U L' U L' R B L R' U2 L' R B L R' U' R' F R' B2 R F' R' B2 R2<|endoftext|>
+<|startoftext|>[WP]UUFUUFUUFRRRRRRRRRFFDFFDFFDDDBDDBDDBUBBUBBUBBLLLLLLLLL[RESPONSE]R'<|endoftext|>
+<|startoftext|>[WP]UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDBBBBBBBBBLLULLULLU[RESPONSE]F<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLRRLRRLRRFFFFFFFFFUUUDDDDDDBBBBBBBBBLLRLLRLLR[RESPONSE]F2<|endoftext|>
+<|startoftext|>[WP]LLLUUULLLURUURUURUFFFFFFFFFRRRDDDRRRBBBBBBBBBDLDDLDDLD[RESPONSE]F' B<|endoftext|>
+<|startoftext|>[WP]LLBUUBUUBUUURRRRRRFFLFFUFFUDDFDDFRRFRBBDBBDBBDLLDLLDLL[RESPONSE]R B<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUULLUDRRDRRBBBFFFFFFLLLDDDDDDFFFBBBBBBDRRLLULLU[RESPONSE]U2 F<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUUFFFRRRBBBLLLFFFRRRDDDDDDDDDRRRBBBLLLBBBLLLFFF[RESPONSE]D U<|endoftext|>
+<|startoftext|>[WP]BUUBUUBUURRRRRRRRRUFFUFFUFFFDDFDDFDDBBDBBDBBDLLLLLLLLL[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRRRRDFFDFFDFFBDDBDDBDDBBUBBUBBULLLLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUULLLRRRRRRBBBFFFFFFDDDDDDDDDFFFBBBBBBRRRLLLLLL[RESPONSE]U2<|endoftext|>
+<|startoftext|>[WP]UULUULUULBBBRRURRURRUFFFFFFDDDDDDRRRDLLBBBBBBFFFDLLDLL[RESPONSE]U' B<|endoftext|>
+<|startoftext|>[WP]UUUUUUFRRDFFDRRDRRLFFLFFLFFBLLDDDDDDRRRBBBBBBBBULLULLU[RESPONSE]F U<|endoftext|>
+<|startoftext|>[WP]UUFUUFUUFRRRRRRRRRFFDFFDFFDDDBDDBDDBUBBUBBUBBLLLLLLLLL[RESPONSE]R'<|endoftext|>
+<|startoftext|>[WP]UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDBBBBBBBBBLLULLULLU[RESPONSE]F<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUUBBBRRRRRRRRRFFFFFFDDDDDDDDDLLLBBBBBBFFFLLLLLL[RESPONSE]U'<|endoftext|>
+<|startoftext|>[WP]DUUDUUDUURRRRRRRRRBFFBFFBFFUDDUDDUDDBBFBBFBBFLLLLLLLLL[RESPONSE]U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUUBBBRRRRRRRRRFFFFFFDDDDDDDDDLLLBBBBBBFFFLLLLLL[RESPONSE]U'<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDBFFRRRRRRLLLBFFBFFUDDUDDUDDRRRBBFBBFBBFLLLLLL[RESPONSE]D F2 D' F U F' R U R' U' F' U' F B' U2 B U2 L U L' U F U2 F' U' F U F' U2 B L F' L F L' F' L F L2 B' L' U' B' L U L' U' L' B L2 U' L' U' L U L' U L<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUUFFFRRRFFFLLLFFFLLLDDDDDDDDDRRRBBBRRRBBBLLLBBB[RESPONSE]D' U<|endoftext|>
+<|startoftext|>[WP]FUBFUBFUBRRRRRRRRRDFUDFUDFUBDFBDFBDFDBUDBUDBULLLLLLLLL[RESPONSE]R D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]UUBUUBUUBRRRRRRRRRFFUFFUFFUDDFDDFDDFDBBDBBDBBLLLLLLLLL[RESPONSE]R<|endoftext|>
+<|startoftext|>[WP]UUFUUFUUFRRRRRRRRRFFDFFDFFDDDBDDBDDBUBBUBBUBBLLLLLLLLL[RESPONSE]R'<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRRRRDFFDFFDFFBDDBDDBDDBBUBBUBBULLLLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]FDDUUBUUBRRLRRLRRLFFUFFUFFUDDFDDFBUUBBDBBDBBDRLLRLLRLL[RESPONSE]B2 R<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDRRDFFFFFFFFFDDDDDDLLLBBBBBBBBBULLULLULL[RESPONSE]B'<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRBRRLFFLFFFFFFLLLDDDDDDUUURRRBBBBBBFLLRLLRBB[RESPONSE]B2 D'<|endoftext|>
+<|startoftext|>[WP]UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDBBBBBBBBBLLDLLDLLD[RESPONSE]F'<|endoftext|>
+<|startoftext|>[WP]UUDUUDUUDRRRRRRRRRFFBFFBFFBDDUDDUDDUFBBFBBFBBLLLLLLLLL[RESPONSE]R2<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDBFFRRRRRRLLLBFFBFFUDDUDDUDDRRRBBFBBFBBFLLLLLL[RESPONSE]D F2 D' F U F' R U R' U' F' U' F B' U2 B U2 L U L' U F U2 F' U' F U F' U2 B L F' L F L' F' L F L2 B' L' U' B' L U L' U' L' B L2 U' L' U' L U L' U L<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRFFFFFFFFFLLLDDDDDDDDDBBBBBBRRRLLLLLLBBB[RESPONSE]D'<|endoftext|>
+<|startoftext|>[WP]UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDBBBBBBBBBLLULLULLU[RESPONSE]F<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUULLLRRRRRRBBBFFFFFFDDDDDDDDDFFFBBBBBBRRRLLLLLL[RESPONSE]U2<|endoftext|>
+<|startoftext|>[WP]UUFUUFUUFRRRRRRRRRFFDFFDFFDDDBDDBDDBUBBUBBUBBLLLLLLLLL[RESPONSE]R'<|endoftext|>
+<|startoftext|>[WP]LLLUUULLLURUURUURUFFFFFFFFFRRRDDDRRRBBBBBBBBBDLDDLDDLD[RESPONSE]F' B<|endoftext|>
+<|startoftext|>[WP]FUFFUFFUFRRRRRRRRRDFDDFDDFDBDBBDBBDBUBUUBUUBULLLLLLLLL[RESPONSE]R' D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDRRDFFFFFFFFFDDDDDDLLLBBBBBBBBBULLULLULL[RESPONSE]B'<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDRRDFFFFFFFFFDDDDDDLLLBBBBBBBBBULLULLULL[RESPONSE]B'<|endoftext|>
+<|startoftext|>[WP]DUUDUUDUURRRRRRLLLBFFBFFBBFDDUDDUDDUBBFBBFBFFLLLLLLRRR[RESPONSE]U2 R2 D2 B U B' R U2 R' U2 F' U' F U R' U2 R U R' U' R F U F' L U2 L' U2 B' U' B U L' U2 L U L' U' L U2 F' B L F B' U2 F' B L F' B' U F U F' U' F' U' F' U F'<|endoftext|>
+<|startoftext|>[WP]BUFBUFBUFRRRRRRRRRUFDUFDUFDFDBFDBFDBUBDUBDUBDLLLLLLLLL[RESPONSE]R' D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
+<|startoftext|>[WP]BUUBUUBUURRRRRRUFFUFFUFFLLLFFFDDDDDDBBDBBDRRRLLLLLLBBD[RESPONSE]D B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUUFFLRRLRRBLLLFFFFFFDDDDDDUUUBBBBBBRRRRBBRLLFLL[RESPONSE]B2 U<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRRRRDFFDFFDFFBDDBDDBDDBBUBBUBBULLLLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]UUUDUUDDDLRRLRRLRRBFFBFFBFFUUUUDDDDDBBFBBFBBFRLLRLLRLL[RESPONSE]U' D R2 F2 D' L U L' B' U B R U R' F U F' R' U R U B U' B' U2 F U' F' U2 L U' L' U' L' U2 L U L' U' L U' B' F R F R F' R' B F2 L F L' B U B' R' B U2 B' U2 B' R B U B U2 B' U'<|endoftext|>
+<|startoftext|>[WP]UUUUUULLFUBBURRURRFFRFFRFFRRRBDDDDDDLLLBBBBBBFFDLLDLLD[RESPONSE]F' U'<|endoftext|>
+<|startoftext|>[WP]DUUDUUDUULLLRRRRRRFBBFFBFFBDDUDDUDDUFFBFBBFBBRRRLLLLLL[RESPONSE]U2 R2<|endoftext|>
+<|startoftext|>[WP]RUUFUUFUUBBBRRRRRRDRRDFFDFFBDDBDDLDDLLUBBUBBUFLLFLLFLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U F2 U F U F' U' F' U' F' U F'<|endoftext|>
+<|startoftext|>[WP]BLLBUUBUURRURRURRULFFUFFUFFFDDFDDFRRBBRBBDBBDDDDLLLLLL[RESPONSE]U2 D2 R' B2 F R B2 D2 U R U' R' U2 R U' R' F U F' R' U R U B U' B' U L U' L' U L U L2 U' L U L' U2 L U2 F U2 F2 L F L' F U2 F' U' F U F' L' F U F' U' F' L F2 U' F' U'<|endoftext|>
+<|startoftext|>[WP]BUUBUUBUURRRRRRRRRUFFUFFUFFFDDFDDFDDBBDBBDBBDLLLLLLLLL[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
+<|startoftext|>[WP]RUUDUUDLLURRURRURRBFFBFFBFFURRUDDLDDBBFBBFBBFDLLDLLDLL[RESPONSE]U2 D2 R2 B D2 B U' B' U F' U2 F B U2 B' U' B U B' F U F' L U2 L' U2 B' U' B U F U F' L' U' L U F U F2 U' F' L F U F U' L' U' R' U L' U2 R U' R' U2 L R U'<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDRRDFFFFFFFFFDDDDDDLLLBBBBBBBBBULLULLULL[RESPONSE]B'<|endoftext|>
+<|startoftext|>[WP]UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDBBBBBBBBBLLULLULLU[RESPONSE]F<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLRRLFFFFFFFFFDDDDDDUUUBBBBBBBBBRLLRLLRLL[RESPONSE]B2<|endoftext|>
+<|startoftext|>[WP]UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDBBBBBBBBBLLULLULLU[RESPONSE]F<|endoftext|>
+<|startoftext|>[WP]UUBUUBUUBRRRRRRRRRFFUFFUFFUDDFDDFDDFDBBDBBDBBLLLLLLLLL[RESPONSE]R<|endoftext|>
+<|startoftext|>[WP]UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDBBBBBBBBBLLULLULLU[RESPONSE]F<|endoftext|>
+<|startoftext|>[WP]UUBUUBUULBRRBRRBRRRRUFFUFFUDDRDDFDDFDLLDBBDBBFFFLLLLLL[RESPONSE]R U'<|endoftext|>
+<|startoftext|>[WP]LLLUUULLLURUURUURUFFFFFFFFFRRRDDDRRRBBBBBBBBBDLDDLDDLD[RESPONSE]F' B<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRBBBFFFFFFRRRDDDDDDDDDBBBBBBLLLLLLLLLFFF[RESPONSE]D<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRBBBFFFFFFRRRDDDDDDDDDBBBBBBLLLLLLLLLFFF[RESPONSE]D<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDRRDFFFFFFFFFDDDDDDLLLBBBBBBBBBULLULLULL[RESPONSE]B'<|endoftext|>
+<|startoftext|>[WP]LLLUUUUUURRURRURRUFFFFFFFFFDDDDDDRRRBBBBBBBBBDLLDLLDLL[RESPONSE]B<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLRRLRRLRRFFFFFFFFFUUUDDDDDDBBBBBBBBBLLRLLRLLR[RESPONSE]F2<|endoftext|>
+<|startoftext|>[WP]DUUDUUDDULRRLRRLRRFFBFFBFFBUUDUDDUDDBBFBBFBBFLLRLLRLLR[RESPONSE]U' D R2 F2 D' F U F' R' U R U B U' B2 U B U L U' L' U2 L' U L U2 F U2 F' U' F' L F2 U F' U' L D F' U F' U' F D' L2 B' U B<|endoftext|>
+<|startoftext|>[WP]LLLUUULLLURUURUURUFFFFFFFFFRRRDDDRRRBBBBBBBBBDLDDLDDLD[RESPONSE]F' B<|endoftext|>
+<|startoftext|>[WP]RRRUUUDDDLRDLRDLRDFFFFFFFFFUUUDDDLLLBBBBBBBBBULRULRULR[RESPONSE]F2 B'<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRRRRDFFDFFDFFBDDBDDBDDBBUBBUBBULLLLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]BUUBUUBUURRRRRRRRRUFFUFFUFFFDDFDDFDDBBDBBDBBDLLLLLLLLL[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
+<|startoftext|>[WP]UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDBBBBBBBBBLLDLLDLLD[RESPONSE]F'<|endoftext|>
+<|startoftext|>[WP]UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDBBBBBBBBBLLDLLDLLD[RESPONSE]F'<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLRRLFFFFFFFFFDDDDDDUUUBBBBBBBBBRLLRLLRLL[RESPONSE]B2<|endoftext|>
+<|startoftext|>[WP]UUBUUBFDDLRRLRRLRRUFFUFFUFFBUUDDFDDFDBBDBBDBBLLRLLRLLR[RESPONSE]R F' U' F2 U F L' U2 L U2 R U B U' B' U B U' B' R' U R B U' B' U' B U B' R' B U B' U' B' R B R'<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRFFFFFFFFFLLLDDDDDDDDDBBBBBBRRRLLLLLLBBB[RESPONSE]D'<|endoftext|>
+<|startoftext|>[WP]LLFUUFUUFRRRRRRUUUFFDFFDFFRDDBDDBRRBUBBUBBLBBDLLDLLDLL[RESPONSE]R' B<|endoftext|>
+<|startoftext|>[WP]LLLUUULLLURUURUURUFFFFFFFFFRRRDDDRRRBBBBBBBBBDLDDLDDLD[RESPONSE]F' B<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLRRLRRLRRFFFFFFFFFUUUDDDDDDBBBBBBBBBLLRLLRLLR[RESPONSE]F2<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRRRRDFFDFFDFFBDDBDDBDDBBUBBUBBULLLLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]LLRUUUUUULLURRURRUBBBFFFFFFDDDDDDRRLFBBFBBFBBDRRDLLDLL[RESPONSE]B U2<|endoftext|>
+<|startoftext|>[WP]UUBUUBUUBRRRRRRRRRFFUFFUFFUDDFDDFDDFDBBDBBDBBLLLLLLLLL[RESPONSE]R<|endoftext|>
+<|startoftext|>[WP]UUUUUULLRULLURRURRFFBFFBFFBRRLDDDDDDFFFBBBBBBRRDLLDLLD[RESPONSE]F' U2<|endoftext|>
+<|startoftext|>[WP]UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDBBBBBBBBBLLDLLDLLD[RESPONSE]F'<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLFFFFFFFFFRLLUDDUDDUDDBBBBBBRRLRLLRLLBBB[RESPONSE]D' B2<|endoftext|>
+<|startoftext|>[WP]UUDUUDUUDLLLRRRRRRBBFBFFBFFUDDUDDUDDBFFBBFBBFRRRLLLLLL[RESPONSE]D2 R2 D2 B U B' R U2 R' U2 F' U' F U R' U2 R U R' U' R F U F' L U2 L' U2 B' U' B U L' U2 L U L' U' L U2 F' B L F B' U2 F' B L F' B' U F U F' U' F' U' F' U F'<|endoftext|>
+<|startoftext|>[WP]BUUBUULUUBBBRRRRRRURRUFFUFFRDDFDDFDDLLDBBDBBDLLFLLFLLF[RESPONSE]D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U B U B' R' B U B' U' B' R B2 U' B' U'<|endoftext|>
+<|startoftext|>[WP]UUFUUFDDFLLLRRRRRRFFUFFDFFDUUBDDBDDBDBBUBBUBBLLRLLRLLR[RESPONSE]R' F2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRLLLFFFFFFBBBDDDDDDDDDBBBBBBFFFLLLLLLRRR[RESPONSE]D2<|endoftext|>
+<|startoftext|>[WP]UURUURUURFFFDRRDRRLLUFFFFFFLLLDDDDDDDRRBBBBBBBBBLLULLU[RESPONSE]U F<|endoftext|>
+<|startoftext|>[WP]FUFFUFFUFRRRRRRRRRDFDDFDDFDBDBBDBBDBUBUUBUUBULLLLLLLLL[RESPONSE]R' D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]DDDUUDUUULRRLRRLRRFFBFFBFFBDDDDDUUUUFBBFBBFBBRLLRLLRLL[RESPONSE]R2 B2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRLLLFFFFFFBBBDDDDDDDDDBBBBBBFFFLLLLLLRRR[RESPONSE]D2<|endoftext|>
+<|startoftext|>[WP]FUUFUURRRDRRDRRBRRFFFFFFDDDLLLBDDBDDBBUBBUBBULLULLULLF[RESPONSE]F D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUULLLRRRRRRBBBFFFFFFDDDDDDDDDFFFBBBBBBRRRLLLLLL[RESPONSE]U2<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLRRLRRLRRFFFFFFFFFUUUDDDDDDBBBBBBBBBLLRLLRLLR[RESPONSE]F2<|endoftext|>
+<|startoftext|>[WP]UUDUUDRRRURRDRRDRRBBBFFFFFFLLLDDUDDUFBBFBBFBBLLDLLULLU[RESPONSE]F R2<|endoftext|>
+<|startoftext|>[WP]UUFUUFUUFRRRRRRRRRFFDFFDFFDDDBDDBDDBUBBUBBUBBLLLLLLLLL[RESPONSE]R'<|endoftext|>
+<|startoftext|>[WP]DUUDUUDUUBBBRRRRRRBRRBFFLFFUDDUDDUDDLLFBBFBBRLLLLLLFFF[RESPONSE]U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B U' F R U' R' U' R U R' F' R U R' U' R' F R F'<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLBBLRRFRRFFFFFFRRRUUUDDDDDDLLLBBBBBBFFRLLRLLB[RESPONSE]F2 U'<|endoftext|>
+<|startoftext|>[WP]DUUDUUDDULRRLRRLRRFFBFFBFFBUUDUDDUDDBBFBBFBBFLLRLLRLLR[RESPONSE]U' D R2 F2 D' F U F' R' U R U B U' B2 U B U L U' L' U2 L' U L U2 F U2 F' U' F' L F2 U F' U' L D F' U F' U' F D' L2 B' U B<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUUFFLRRLRRBLLLFFFFFFDDDDDDUUUBBBBBBRRRRBBRLLFLL[RESPONSE]B2 U<|endoftext|>
+<|startoftext|>[WP]FFFUUUUUUFFDRRRRRRLLLFFDFFDDDBDDBDDBRRRUBBUBBUBBLLLLLL[RESPONSE]U R'<|endoftext|>
+<|startoftext|>[WP]RRLUUUUUURRDRRDLLDFFFFFFBBBDDDDDDLLRFBBFBBFBBULLULLURR[RESPONSE]B' D2<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLRRLFFFFFFFFFDDDDDDUUUBBBBBBBBBRLLRLLRLL[RESPONSE]B2<|endoftext|>
+<|startoftext|>[WP]BUUBUUBUURRRRRRBBDUFFUFFRRRDDDDDDFFFBBDBBDLLLLLLLLLUFF[RESPONSE]D' B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
+<|startoftext|>[WP]DDDUUUDDDLRLLRLLRLFFFFFFFFFUUUDDDUUUBBBBBBBBBRLRRLRRLR[RESPONSE]F2 B2<|endoftext|>
+<|startoftext|>[WP]UUBUUBUUBRRRRRRRRRFFUFFUFFUDDFDDFDDFDBBDBBDBBLLLLLLLLL[RESPONSE]R<|endoftext|>
+<|startoftext|>[WP]DUUDUUDUUFFFRRRRRRBLLBFFRFFUDDUDDUDDRRFBBFBBLLLLLLLBBB[RESPONSE]U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B U B L U' L' U' L U L' B' L U L' U' L' B L B'<|endoftext|>
+<|startoftext|>[WP]UUDUUDUUDRRRRRRLLLBBBFFBFFFDDUDDUDDUFFFFBBBBBRRRLLLLLL[RESPONSE]R2 U2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUUBBBRRRRRRRRRFFFFFFDDDDDDDDDLLLBBBBBBFFFLLLLLL[RESPONSE]U'<|endoftext|>
+<|startoftext|>[WP]UUDUUDUUDRRRRRRLLLBBBFFBFFFDDUDDUDDUFFFFBBBBBRRRLLLLLL[RESPONSE]R2 U2<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRRRRDFFDFFDFFBDDBDDBDDBBUBBUBBULLLLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]UUUUUULLRULLURRURRFFBFFBFFBRRLDDDDDDFFFBBBBBBRRDLLDLLD[RESPONSE]F' U2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRLLLFFFFFFBBBDDDDDDDDDBBBBBBFFFLLLLLLRRR[RESPONSE]D2<|endoftext|>
+<|startoftext|>[WP]UUFUUFUUFLLLRRRRRRBBUDFFDFFBDDBDDBDDDFFBBUBBURRRLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' L' U L U2 F U F2 L F' L' F2 U2 R' F R F' U2 R U' L U2 R' U R L' U' L U2 R' U L' U<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUUFFFRRRRRRLLLFFFFFFDDDDDDDDDRRRBBBBBBBBBLLLLLL[RESPONSE]U<|endoftext|>
+<|startoftext|>[WP]UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDBBBBBBBBBLLDLLDLLD[RESPONSE]F'<|endoftext|>
+<|startoftext|>[WP]UUBUUBDDBRRRRRRLLLFFUFFUFFDUUFDDFDDFDBBDBBUBBLLRLLRLLR[RESPONSE]R F2<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLFFFFFFFFFRLLUDDUDDUDDBBBBBBRRLRLLRLLBBB[RESPONSE]D' B2<|endoftext|>
+<|startoftext|>[WP]LUUFUUFUUFFFRRRRRRDLLDFFDFFBDDBDDRDDRRUBBUBBUBLLBLLBLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U' B2 U B U B' U' B' U' B' U B'<|endoftext|>
+<|startoftext|>[WP]DLLDUURUURRURRURRUBFFBFFBFFLDDUDDURRBBFBBFBBFLLDLLDLLD[RESPONSE]U2 D2 R2 F' D2 B U B' R U2 R' U2 F' U' F U B U B' R' U' R U' F U F' U2 B' U' B U' F U2 F' U' F U F' U2 B2 U' B R B' U B2 U' B' R' B U F' U2 F U2 F' L F U F' U' F' L' F2 U'<|endoftext|>
+<|startoftext|>[WP]UUUUUULLFUBBURRURRFFRFFRFFRRRBDDDDDDLLLBBBBBBFFDLLDLLD[RESPONSE]F' U'<|endoftext|>
+<|startoftext|>[WP]UUUUUUDDDLRRLRRLRRFFFFFFFFFUUUDDDDDDBBBBBBBBBLLRLLRLLR[RESPONSE]F2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRLLLFFFFFFBBBDDDDDDDDDBBBBBBFFFLLLLLLRRR[RESPONSE]D2<|endoftext|>
+<|startoftext|>[WP]UUBUUBUUBRRRRRRRRRFFUFFUFFUDDFDDFDDFDBBDBBDBBLLLLLLLLL[RESPONSE]R<|endoftext|>
+<|startoftext|>[WP]LLLUUUUUURRURRURRUFFFFFFFFFDDDDDDRRRBBBBBBBBBDLLDLLDLL[RESPONSE]B<|endoftext|>
+<|startoftext|>[WP]UUDUUDUUDRRRRRRRRRFFBFFBFFBDDUDDUDDUFBBFBBFBBLLLLLLLLL[RESPONSE]R2<|endoftext|>
+<|startoftext|>[WP]UUBUUBDDBRRRRRRLLLFFUFFUFFDUUFDDFDDFDBBDBBUBBLLRLLRLLR[RESPONSE]R F2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRFFFFFFFFFLLLDDDDDDDDDBBBBBBRRRLLLLLLBBB[RESPONSE]D'<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLRRLFFFFFFFFFDDDDDDUUUBBBBBBBBBRLLRLLRLL[RESPONSE]B2<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLFFFFFFFFFRLLUDDUDDUDDBBBBBBRRLRLLRLLBBB[RESPONSE]D' B2<|endoftext|>
+<|startoftext|>[WP]UUBUUBRRBRRRRRRDDDFFUFFUFFRLLFDDFDDFDBBDBBLBBLLULLULLU[RESPONSE]R F<|endoftext|>
+<|startoftext|>[WP]UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDBBBBBBBBBLLDLLDLLD[RESPONSE]F'<|endoftext|>
+<|startoftext|>[WP]BUUBUUBDDLRRLRRLRRUFFUFFDFFFUUFDDFDDBBDBBDBBULLLLLLRRR[RESPONSE]F2 D2 B2 R B2 D2 U B' U2 B U2 L U L2 U' B U L U' L' B' L U' F R' F' L F R F' L' F R F' L F R' F' L'<|endoftext|>
+<|startoftext|>[WP]UUUUUUFFFUBBRRRRRRRRRFFDFFDDDBDDBDDBLLLUBBUBBFFDLLLLLL[RESPONSE]U' R'<|endoftext|>
+<|startoftext|>[WP]DUUDUUDUURRRRRRLLLFFFBFFBBBUDDUDDUDDBBBBBFFFFRRRLLLLLL[RESPONSE]U D' B2 D' L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
+<|startoftext|>[WP]LLLUUUUUURRURRURRUFFFFFFFFFDDDDDDRRRBBBBBBBBBDLLDLLDLL[RESPONSE]B<|endoftext|>
+<|startoftext|>[WP]DUUDUUDUURRRRRRFFFRFFBFFBLLUDDUDDUDDBBLBBFRRFBBBLLLLLL[RESPONSE]U D' B2 L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDRRDFFFFFFFFFDDDDDDLLLBBBBBBBBBULLULLULL[RESPONSE]B'<|endoftext|>
+<|startoftext|>[WP]UUUUUULLBUFFURRURRFFLFFLFFLRRFDDDDDDRRRBBBBBBBBDLLDLLD[RESPONSE]F' U<|endoftext|>
+<|startoftext|>[WP]UUUUUURRRDRRDRRDRRFFFFFFFFFLLLDDDDDDBBBBBBBBBLLULLULLU[RESPONSE]F<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRBBBFFFFFFRRRDDDDDDDDDBBBBBBLLLLLLLLLFFF[RESPONSE]D<|endoftext|>
+<|startoftext|>[WP]FUUFUUBUURRRRRRLLLDFFDFFDBBFDDBDDBDDBBUBBUFFULLRLLRLLR[RESPONSE]D2 F2 R' F2 U R U2 R' F' U2 F U' R U R' U R' U R U B U' B2 U B U L U' L' U L' U' L U L' U2 L U F U F' U F' L F L' F U2 F' U F U F' L' F U F' U' F' L F2 U' F' U'<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDRRDFFFFFFFFFDDDDDDLLLBBBBBBBBBULLULLULL[RESPONSE]B'<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRBBBFFFFFFRRRDDDDDDDDDBBBBBBLLLLLLLLLFFF[RESPONSE]D<|endoftext|>
+<|startoftext|>[WP]UUUUUULLFUBBURRURRFFRFFRFFRRRBDDDDDDLLLBBBBBBFFDLLDLLD[RESPONSE]F' U'<|endoftext|>
+<|startoftext|>[WP]UUBUUBUUBRRRRRRDBBFFUFFURRRFFFDDDDDDDBBDBBLLLLLLLLLFFU[RESPONSE]D R<|endoftext|>
+<|startoftext|>[WP]UUDUUDUUDRRRRRRRRRFFBFFBFFBDDUDDUDDUFBBFBBFBBLLLLLLLLL[RESPONSE]R2<|endoftext|>
+<|startoftext|>[WP]DUFDUFDUFRRRRRRRRRBFDBFDBFDUDBUDBUDBUBFUBFUBFLLLLLLLLL[RESPONSE]R' U D' B2 D L U L' B U2 B' U2 R' U' R F U' F' U B' U2 B F U2 F' L' U2 L U' F U F' U2 B' U B U2 B' U' R' U R U B L F U' F' U' F U F' L' F U F' U' F' L F L'<|endoftext|>
+<|startoftext|>[WP]LLLUUDUUDRRURRURRDFFBFFBFFBDDUDDURRRBBBBBBFFFDLLDLLULL[RESPONSE]R2 B R' U' R2 U R' U R' U2 R U2 B U B' U B U2 B' U' B U' B' U' B2 D L' U L' U' L D' B2 R' U R<|endoftext|>
+<|startoftext|>[WP]UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDBBBBBBBBBLLDLLDLLD[RESPONSE]F'<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLRLLFFFFFFBBBUUUDDDDDDBBBBBBFFFRLLRLLRRL[RESPONSE]D2 B2<|endoftext|>
+<|startoftext|>[WP]LLLUUUUUURRURRURRUFFFFFFFFFDDDDDDRRRBBBBBBBBBDLLDLLDLL[RESPONSE]B<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDRRDFFFFFFFFFDDDDDDLLLBBBBBBBBBULLULLULL[RESPONSE]B'<|endoftext|>
+<|startoftext|>[WP]UUDUUDUUDRRRRRRRRRFFBFFBFFBDDUDDUDDUFBBFBBFBBLLLLLLLLL[RESPONSE]R2<|endoftext|>
+<|startoftext|>[WP]RRRUUUUUURRDRRDFFFFFFFFFULLLDDLDDLDDBBBBBBRRDULLULLBBB[RESPONSE]D' B'<|endoftext|>
+<|startoftext|>[WP]LLLUUUDDDLRULRULRUFFFFFFFFFUUUDDDRRRBBBBBBBBBDLRDLRDLR[RESPONSE]F2 B<|endoftext|>
+<|startoftext|>[WP]UUFUUFUUFRRRRRRUBBFFDFFDRRRBBBDDDDDDUBBUBBLLLLLLLLLFFD[RESPONSE]D R'<|endoftext|>
+<|startoftext|>[WP]FUUFUUFUURRRRRRRRRDFFDFFDFFBDDBDDBDDBBUBBUBBULLLLLLLLL[RESPONSE]D2 F2 R' F2 D2 U' R' U2 R U R' U2 R U' B' U2 B U' L U L' U F U F' U' L' U' L U' R U B U' B' R' L F U F' U' F U F' U' L' U2 L2 U L U L' U' L' U' L' U L'<|endoftext|>
+<|startoftext|>[WP]DDDUUUUUURRLRRLRRLFFFFFFFFFDDDDDDUUUBBBBBBBBBRLLRLLRLL[RESPONSE]B2<|endoftext|>
+<|startoftext|>[WP]UUUUUUUUURRRRRRFFFFFFFFFLLLDDDDDDDDDBBBBBBRRRLLLLLLBBB[RESPONSE]D'<|endoftext|>
+<|startoftext|>[WP]RUUDUUDLLURRURRURRBFFBFFBFFURRUDDLDDBBFBBFBBFDLLDLLDLL[RESPONSE]U2 D2 R2 B D2 B U' B' U F' U2 F B U2 B' U' B U B' F U F' L U2 L' U2 B' U' B U F U F' L' U' L U F U F2 U' F' L F U F U' L' U' R' U L' U2 R U' R' U2 L R U'<|endoftext|>
+<|startoftext|>[WP]LLLBUUBUURRBRRURRUUFFUFFUFFFDDFDDRRRDDDBBBBBBFLLDLLDLL[RESPONSE]B D2 B2 R B2 D2 U R U2 R' U2 R U' R' U B' U2 B U2 L U L' U F U F' U F' L F' L' F2 U2 R' F R F' U2 R U R' F' R U R' U' R' F R2 U' R' U'<|endoftext|>
