@@ -20,31 +20,23 @@ parser.add_argument("--response_end", help="Token indicating end of response (de
 args = parser.parse_args()
 
 
-FACES = ["F", "B", "U", "D", "L", "R"]
-
 def gen_init_config(length):
     """Generate a random initial configuration of a rubik's cube by randomly generating a formula of the specified length.
     
     Returns:
-        Random initial cube configuration, as a list."""
+        Random initial cube configuration, as a string."""
 
-    config = []
-    for _ in range(length):
-        config.append(random.choice(FACES))
+    alg = pc.Formula().random(n=length)
+    return str(alg)
 
-    return config
-    
 
 def gen_response(config):
     """Given an initial cube config, use the CFOPSolver in PyCuber to generate the corresponding response."""
 
-    if isinstance(config, list):
-        config = " ".join(config)
-
     cube = pc.Cube()
     cube(config)
     solver = CFOPSolver(cube)
-    response = str(solver.solve().optimise())
+    response = str(solver.solve(suppress_progress_messages=True).optimise())
     return response
 
 
@@ -62,7 +54,7 @@ def main():
     # Generate appropriate amount of samples for each sample length
     for length in range(args.min_length, args.max_length+1):
         for _ in range(samples_per_len):
-            prompt = " ".join(gen_init_config(length))
+            prompt = gen_init_config(length)
             response = gen_response(prompt)
             sample = f"{args.prompt_start}{prompt}{args.response_start}{response}{args.response_end}"
             gen_samples.append(sample)
