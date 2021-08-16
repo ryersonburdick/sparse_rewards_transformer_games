@@ -4,12 +4,70 @@ import argparse
 import re
 import pycuber as pc
 
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--model_output", help="Path to file containing Rubik's data and corresponding model output.")
 parser.add_argument("--prompt_start", help="Token indicating start of prompt (default <|startoftext|>[WP]).", default="<\|startoftext\|>[WP]")
 parser.add_argument("--response_start", help="Token indicating start of response (default [RESPONSE]).", default="[RESPONSE]")
 parser.add_argument("--response_end", help="Token indicating end of response (default <|endoftext|>).", default="<\|endoftext\|>")
 args = parser.parse_args()
+
+# Standard traversal order for all faces on a cube,
+# faces indexed by cube[cubie][face]
+FACES_ORDER = ["U"] * 9
+FACES_ORDER.extend(["R"] * 9)
+FACES_ORDER.extend(["F"] * 9)
+FACES_ORDER.extend(["D"] * 9)
+FACES_ORDER.extend(["B"] * 9)
+FACES_ORDER.extend(["L"] * 9)
+CUBIES_ORDER = [
+    "ULB", "UB", "URB", "UL", "U", "UR", "ULF", "UF", "URF", 
+    "URF", "UR", "URB", "RF", "R", "RB", "RFD", "RD", "RDB", 
+    "UFL", "UF", "UFR", "FL", "F", "FR", "FLD", "FD", "FRD", 
+    "DFL", "DF", "DFR", "DL", "D", "DR", "DLB", "DB", "DRB", 
+    "URB", "UB", "ULB", "BR", "B", "BL", "BRD", "BD", "BLD", 
+    "ULB", "UL", "ULF", "LB", "L", "LF", "LBD", "LD", "LFD"
+]
+COLORS = ['red', 'blue', 'yellow', 'white', 'green', 'orange']
+
+
+def get_map_colors_to_faces(cube):
+    """Return a dict which maps color names to faces."""
+    
+    colors_to_faces = {}
+    for color in COLORS:
+        face = cube.which_face(color)
+        colors_to_faces[color] = face
+    return colors_to_faces
+
+
+def get_map_faces_to_colors(cube):
+    """Return a dict which maps faces to color names."""
+    
+    faces_to_colors = {}
+    for color in COLORS:
+        face = cube.which_face(color)
+        faces_to_colors[face] = color
+    return faces_to_colors
+
+
+def config_to_cube(config):
+    """Given a config string (6*9*(URFDBL)), produce a PyCuber.Cube object."""
+
+    # Replace whitespace in config string
+    config = config.replace(" ", "")
+
+    cube = pc.Cube()
+    faces_to_colors = get_map_faces_to_colors(cube)
+
+    # Get list of colors for all faces in standard traversal order
+    colors_list = [faces_to_colors[face] for face in config]
+
+    # Using colors list, assign colors to all faces of cube
+    for color, face, cubie in zip(colors_list, FACES_ORDER, CUBIES_ORDER):
+        cube[cubie].facings[face].colour = color
+    
+    return cube
 
 
 def is_correct(cube):
