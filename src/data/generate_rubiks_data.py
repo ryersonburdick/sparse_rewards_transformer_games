@@ -19,6 +19,37 @@ parser.add_argument("--response_start", help="Token indicating start of response
 parser.add_argument("--response_end", help="Token indicating end of response (default <|endoftext|>).", default="<|endoftext|>")
 args = parser.parse_args()
 
+COLORS = ['red', 'blue', 'yellow', 'white', 'green', 'orange']
+FACES = ["U", "R", "F", "D", "B", "L"]
+
+def get_map_colors_to_faces(cube):
+    """Return a dict which maps color names to faces."""
+    
+    colors_to_faces = {}
+    for color in COLORS:
+        face = cube.which_face(color)
+        colors_to_faces[color] = face
+    return colors_to_faces
+
+
+def get_config_string(cube):
+    """Given a cube, return a init. config string = (URFDBL)*9."""
+
+    # Get map from cube colors to cube faces
+    colors_to_faces = get_map_colors_to_faces(cube)
+
+    config_string = ""
+
+    # Iterate over faces
+    # Note: Face traversal order is URFDBL
+    for face in FACES:
+        face_array = cube.get_face(face)
+        face_colors = [square.colour for col in face_array for square in col]
+        face_chars = [colors_to_faces[color] for color in face_colors]
+        for char in face_chars:
+            config_string += char
+    return config_string
+
 
 def gen_init_config(length):
     """Generate a random initial configuration of a rubik's cube by randomly generating a formula of the specified length.
@@ -30,11 +61,9 @@ def gen_init_config(length):
     return str(alg)
 
 
-def gen_response(config):
-    """Given an initial cube config, use the CFOPSolver in PyCuber to generate the corresponding response."""
+def gen_response(cube):
+    """Given acube, use the CFOPSolver in PyCuber to generate the corresponding response."""
 
-    cube = pc.Cube()
-    cube(config)
     solver = CFOPSolver(cube)
     response = str(solver.solve(suppress_progress_messages=True).optimise())
     return response
@@ -54,8 +83,11 @@ def main():
     # Generate appropriate amount of samples for each sample length
     for length in range(args.min_length, args.max_length+1):
         for _ in range(samples_per_len):
-            prompt = gen_init_config(length)
-            response = gen_response(prompt)
+            config = gen_init_config(length)
+            cube = pc.Cube()
+            cube(config)
+            prompt = get_config_string(cube)
+            response = gen_response(cube)
             sample = f"{args.prompt_start}{prompt}{args.response_start}{response}{args.response_end}"
             gen_samples.append(sample)
 
