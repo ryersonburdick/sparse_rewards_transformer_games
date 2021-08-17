@@ -12,9 +12,9 @@ from test_rubiks import *
 
 class RubiksTestSuite(unittest.TestCase):
 
-    def test_cube_conversions(self):
-        # 20 random test cases
-        for _ in range(20):
+    def test_cube_conversions_1(self):
+        # 100 random test cases
+        for _ in range(100):
             # Create new cube
             cube = pc.Cube()
             # Create random formula
@@ -28,6 +28,21 @@ class RubiksTestSuite(unittest.TestCase):
 
             # Assert that cubes are identical
             self.assertEqual(cube, cube2)
+
+    
+    def test_config_to_cube(self):
+        # Test with 100 random formulas
+        for _ in range(100):
+            formula = pc.Formula().random(random.randint(1, 10))
+            cube1 = pc.Cube()
+            cube2 = config_to_cube("UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDBBBBBBBBBLLLLLLLLL")
+            self.assertEqual(cube1, cube2)
+
+            # Apply formula to both cubes
+            cube1(formula)
+            cube2(formula)
+
+            self.assertEqual(cube1, cube2)
 
 
 if __name__ == "__main__":
