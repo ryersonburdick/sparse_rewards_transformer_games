@@ -22,6 +22,7 @@ parser.add_argument("--data", default=None,
 parser.add_argument("--output", default=None, help="Name of file to write generated response(s) to. Default is {run_name}_responses.txt", required=False)
 parser.add_argument("--temperature", type=float, default=0.7)
 parser.add_argument("--n_samples", type=int, default=1)
+parser.add_argument("--stop_after", type=int, default=None)
 parser.add_argument("--verbose", type=bool, default=False)
 args = parser.parse_args()
 
@@ -63,28 +64,36 @@ def main():
         # Generate a new response for each prompt, truncate at the end-of-line token
         def truncate_response(response):
             return response.split(END_TOKEN)[0] + END_TOKEN
-        new_pairs = []
+            
+        output = ""
         n_prompts = len(prompts)
-        for i, prompt in enumerate(prompts):
-            gen = gpt2.generate(
-                    sess, 
-                    run_name=args.run_name, 
-                    checkpoint_dir=CHECKPOINT_DIR, 
-                    prefix=prompt, 
-                    nsamples=args.n_samples,
-                    temperature=args.temperature,
-                    return_as_list=True
-                )[0]
-            # Truncate
-            gen = truncate_response(gen)
 
-            # Show progress if applicable
-            if args.verbose:
-                print(f"[{i+1} / {n_prompts}] {gen}")
+        if args.stop_after is None:
+            args.stop_after = n_prompts
 
-            new_pairs.append(gen)
+        try:
+            for i, prompt in enumerate(prompts):
+                if i >= args.stop_after:
+                    break
+                gen = gpt2.generate(
+                        sess, 
+                        run_name=args.run_name, 
+                        checkpoint_dir=CHECKPOINT_DIR, 
+                        prefix=prompt, 
+                        nsamples=args.n_samples,
+                        temperature=args.temperature,
+                        return_as_list=True
+                    )[0]
+                # Truncate
+                gen = truncate_response(gen)
 
-        output = "\n".join(new_pairs)
+                # Show progress if applicable
+                if args.verbose:
+                    print(f"[{i+1} / {args.stop_after}] {gen}")
+
+                output += gen
+        except KeyboardInterrupt as e:
+            pass
 
         # If output file not specified, default to {run_name}_responses.txt
         if args.output is None:
