@@ -3,13 +3,15 @@
 import argparse
 import re
 import pycuber as pc
+from pycuber import Corner, Edge, Centre, Square
+import random
 
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--model_output", help="Path to file containing Rubik's data and corresponding model output.")
-parser.add_argument("--prompt_start", help="Token indicating start of prompt (default <|startoftext|>[WP]).", default="<\|startoftext\|>[WP]")
+parser.add_argument("--prompt_start", help="Token indicating start of prompt (default <|startoftext|>[WP]).", default="<|startoftext|>[WP]")
 parser.add_argument("--response_start", help="Token indicating start of response (default [RESPONSE]).", default="[RESPONSE]")
-parser.add_argument("--response_end", help="Token indicating end of response (default <|endoftext|>).", default="<\|endoftext\|>")
+parser.add_argument("--response_end", help="Token indicating end of response (default <|endoftext|>).", default="<|endoftext|>")
 args = parser.parse_args()
 
 # Standard traversal order for all faces on a cube,
@@ -20,14 +22,14 @@ FACES_ORDER.extend(["F"] * 9)
 FACES_ORDER.extend(["D"] * 9)
 FACES_ORDER.extend(["B"] * 9)
 FACES_ORDER.extend(["L"] * 9)
-CUBIES_ORDER = [
+CUBIES_ORDER = ["".join(sorted(s)) for s in [
     "ULB", "UB", "URB", "UL", "U", "UR", "ULF", "UF", "URF", 
     "URF", "UR", "URB", "RF", "R", "RB", "RFD", "RD", "RDB", 
     "UFL", "UF", "UFR", "FL", "F", "FR", "FLD", "FD", "FRD", 
     "DFL", "DF", "DFR", "DL", "D", "DR", "DLB", "DB", "DRB", 
     "URB", "UB", "ULB", "BR", "B", "BL", "BRD", "BD", "BLD", 
     "ULB", "UL", "ULF", "LB", "L", "LF", "LBD", "LD", "LFD"
-]
+]]
 COLORS = ['red', 'blue', 'yellow', 'white', 'green', 'orange']
 
 
@@ -57,17 +59,30 @@ def config_to_cube(config):
     # Replace whitespace in config string
     config = config.replace(" ", "")
 
-    cube = pc.Cube()
-    faces_to_colors = get_map_faces_to_colors(cube)
-
     # Get list of colors for all faces in standard traversal order
+    faces_to_colors = get_map_faces_to_colors(pc.Cube())
     colors_list = [faces_to_colors[face] for face in config]
 
-    # Using colors list, assign colors to all faces of cube
-    for color, face, cubie in zip(colors_list, FACES_ORDER, CUBIES_ORDER):
-        cube[cubie].facings[face].colour = color
+    # Create dict mapping cubie ID->face ID->color
+    cubies_dict = {cubie:{} for cubie in CUBIES_ORDER}
+    for color, cubie, face in zip(colors_list, CUBIES_ORDER, FACES_ORDER):
+        cubies_dict[cubie][face] = color
     
-    return cube
+    # Use dict of cubie to create set of cubies which will be used to create final cube
+    cubies = set()
+    for cubie_id in cubies_dict.keys():
+        # Corner cubie touches 3 faces
+        if len(cubie_id) == 3:
+            new_cubie = Corner(**{f:Square(cubies_dict[cubie_id][f]) for f in cubies_dict[cubie_id].keys()})
+        # Edge cubie touches 2 faces
+        elif len(cubie_id) == 2:
+            new_cubie = Edge(**{f:Square(cubies_dict[cubie_id][f]) for f in cubies_dict[cubie_id].keys()})
+        # Center cubie touches only 1 face
+        else:
+            new_cubie = Centre(**{f:Square(cubies_dict[cubie_id][f]) for f in cubies_dict[cubie_id].keys()})
+        cubies.add(new_cubie)
+
+    return pc.Cube(cubies=cubies)
 
 
 def is_correct(cube):
@@ -91,7 +106,7 @@ def parse_line(line):
         A tuple containing initial configuration and generated formula.
     """
 
-    match = re.match(f"{args.prompt_start}(.*){args.response_start}(.*){args.response_end}", line.strip())
+    match = re.match(f"{re.escape(args.prompt_start)}(.*){re.escape(args.response_start)}(.*){re.escape(args.response_end)}", line.strip())
     if match:
         prompt = match.group(1)
         response = match.group(2)
@@ -111,8 +126,7 @@ def eval_line(line):
     prompt, response = parse_line(line)
     if prompt and response:
         # Set initial cube config
-        cube = pc.Cube()
-        cube(prompt)
+        cube = config_to_cube(prompt)
 
         try:
             # Apply response formula
@@ -154,7 +168,7 @@ def main():
     total = n_correct + n_incorrect + n_invalid
     r_correct = float(n_correct) / total
     r_incorrect = float(n_incorrect) / total
-    r_invalid = float(invalid) / total
+    r_invalid = float(n_invalid) / total
 
     print(f"Evaluating responses from {args.model_output}.")
     print(f"Correct: {n_correct}/{total} ~ {r_correct}")
@@ -164,3 +178,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
+
