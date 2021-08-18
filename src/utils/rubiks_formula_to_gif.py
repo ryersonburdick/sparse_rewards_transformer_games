@@ -4,26 +4,33 @@ import wget
 import argparse
 from PIL import Image
 import os
+import sys
+
+sys.path.insert(0, "src/utils")
+from rubiks_utils import *
+
+DEFAULT_CONFIG = "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDBBBBBBBBBLLLLLLLLL"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--formula", help="String representation of rubik's formula from which to generate a gif. Individual steps should be separated by whitespace.")
-parser.add_argument("--config", help="Initial configuration of cube that formula acts on (defaults to completed cube state).", default="")
+parser.add_argument("--config", help="Initial configuration of cube that formula acts on (defaults to completed cube state).", default=DEFAULT_CONFIG)
 parser.add_argument("--output", help="Name of file to write GIF to (default cube.gif).", default="cube.gif")
 parser.add_argument("--duration", type=int, help="Desired GIF frame duration in ms (default 300).", default=300)
 parser.add_argument("--repeat-last", help="Number of times to repeat last frame (default 0).", type=int, default=0)
 args = parser.parse_args()
 
 
-def get_cube_image(formula):
-    """Given a formula specifying a Rubik's cube configuration, download image of cube state.
+def get_cube_image(config, formula=None):
+    """Given a cube configuration (9*6*URFDBL) and an optional formula, download an image of the cube after applying the formula.
     
     Returns name of the file where image is stored.
     """
 
-    # Remove whitespace from formula
-    formula = formula.replace(' ', '')
-
-    url = f"http://cube.rider.biz/visualcube.png?fmt=svg&size=350&pzl=3&alg={formula}"
+    url = f"http://cube.rider.biz/visualcube.png?fmt=svg&size=350&pzl=3&fd={config.lower()}"
+    if formula is not None:
+        # Remove whitespace from formula
+        formula = formula.replace(' ', '')
+        url += f"&alg={formula}"
     image = wget.download(url)
     return image
 
@@ -44,10 +51,10 @@ def formula_to_gif(init_config, formula):
     image_files.append(start_frame)
 
     # Get images for subsequent configurations according to formula
-    config = init_config
+    formula_string = ""
     for step in formula_steps:
-        config += step
-        file = get_cube_image(config)
+        formula_string += step
+        file = get_cube_image(init_config, formula=formula_string)
         image_files.append(file)
 
     # Use ordered list of image files to create gif and save
