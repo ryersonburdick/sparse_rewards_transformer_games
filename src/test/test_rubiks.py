@@ -3,16 +3,13 @@ import pycuber as pc
 import sys
 import random
 
-sys.path.insert(0, "src\data")
-from generate_rubiks_data import *
-
-sys.path.insert(0, "src\model")
-from test_rubiks import *
+sys.path.insert(0, "src/utils")
+from rubiks_utils import *
 
 
 class RubiksTestSuite(unittest.TestCase):
 
-    def test_cube_conversions_1(self):
+    def test_cube_to_config_1(self):
         # 100 random test cases
         for _ in range(100):
             # Create new cube
@@ -30,7 +27,7 @@ class RubiksTestSuite(unittest.TestCase):
             self.assertEqual(cube, cube2)
 
     
-    def test_config_to_cube(self):
+    def test_config_to_cube_1(self):
         # Test with 100 random formulas
         for _ in range(100):
             formula = pc.Formula().random(random.randint(1, 10))
@@ -43,6 +40,20 @@ class RubiksTestSuite(unittest.TestCase):
             cube2(formula)
 
             self.assertEqual(cube1, cube2)
+
+    
+    def test_config_to_cube_2(self):
+        # Create random configs from random cubes and ensure that the resulting cubes are valid (solvable)
+        # Test with 100 random formulas
+        for _ in range(100):
+            formula = pc.Formula().random(random.randint(1, 20))
+            cube = pc.Cube()
+            cube(formula)
+            config = get_config_string(cube)
+            # Build second cube directly from this config string
+            cube2 = config_to_cube(config)
+            # Ensure this second cube is valid
+            self.assertTrue(cube2.is_valid())
 
 
 if __name__ == "__main__":
