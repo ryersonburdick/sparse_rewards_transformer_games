@@ -24,6 +24,7 @@ parser.add_argument("--temperature", type=float, default=0.7)
 parser.add_argument("--n_samples", type=int, default=1)
 parser.add_argument("--stop_after", type=int, default=None)
 parser.add_argument("--verbose", type=bool, default=False)
+parser.add_argument("--save_every", type=int, default=25)
 args = parser.parse_args()
 
 
@@ -71,6 +72,12 @@ def main():
         if args.stop_after is None:
             args.stop_after = n_prompts
 
+        # If output file not specified, default to {run_name}_responses.txt
+        if args.output is None:
+            output_file = args.run_name + "_responses.txt"
+        else:
+            output_file = args.output
+
         try:
             for i, prompt in enumerate(prompts):
                 if i >= args.stop_after:
@@ -92,15 +99,19 @@ def main():
                     print(f"[{i+1} / {args.stop_after}] {gen}")
 
                 output.append(gen)
+
+                # Save intermittently
+                if (i + 1) % args.save_every == 0:
+                    if args.verbose:
+                        print(f"Saving to {output_file}...")
+                    with open(output_file, 'w') as file:
+                        file.write("\n".join(output))
+
         except KeyboardInterrupt as e:
             pass
-
-        # If output file not specified, default to {run_name}_responses.txt
-        if args.output is None:
-            output_file = args.run_name + "_responses.txt"
-        else:
-            output_file = args.output
         
+        if args.verbose:
+            print(f"Saving to {output_file}...")
         with open(output_file, 'w') as file:
             file.write("\n".join(output))
 
