@@ -20,6 +20,7 @@ parser.add_argument("--prefix", default=None,
 parser.add_argument("--data", default=None, 
     help="File containing lines in the format <|startoftext|>[WP] (prefix)[RESPONSE](response)<|endoftext|> whose prefixes will be used to generate responses.", required=False)
 parser.add_argument("--output", default=None, help="Name of file to write generated response(s) to. Default is {run_name}_responses.txt", required=False)
+parser.add_argument("--skip_first", type=int, help="Skip this many prompts in input file before beginning to generate responses (default 0).", default=0)
 parser.add_argument("--temperature", type=float, default=0.7)
 parser.add_argument("--n_samples", type=int, default=1)
 parser.add_argument("--stop_after", type=int, default=None)
@@ -57,6 +58,9 @@ def main():
         # Open data file
         with open(args.data, 'r') as file:
             samples = [line for line in file.readlines()]
+
+        # Skip as many samples (lines) as required
+        samples = samples[args.skip_first:]
         
         # Split each sample into prompt and existing (correct) response
         split_samples = [sample.split(RESPONSE_START_TOKEN) for sample in samples]
