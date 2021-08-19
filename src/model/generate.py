@@ -65,7 +65,7 @@ def main():
         def truncate_response(response):
             return response.split(END_TOKEN)[0] + END_TOKEN
             
-        output = ""
+        output = []
         n_prompts = len(prompts)
 
         if args.stop_after is None:
@@ -91,7 +91,7 @@ def main():
                 if args.verbose:
                     print(f"[{i+1} / {args.stop_after}] {gen}")
 
-                output += gen
+                output.append(gen)
         except KeyboardInterrupt as e:
             pass
 
@@ -102,7 +102,7 @@ def main():
             output_file = args.output
         
         with open(output_file, 'w') as file:
-            file.write(output)
+            file.write("\n".join(output))
 
 
 if __name__ == "__main__":
