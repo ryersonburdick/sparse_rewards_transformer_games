@@ -35,9 +35,11 @@ def parse_line(line):
         A tuple containing initial configuration and generated formula.
     """
 
-    match = re.match(f"{re.escape(args.prompt_start)}(.*){re.escape(args.response_start)}(.*){re.escape(args.response_end)}", line.strip())
+    match = re.match(f"{re.escape(args.prompt_start)}(.*?){re.escape(args.response_start)}(.*){re.escape(args.response_end)}", line.strip())
     if match:
         prompt = match.group(1)
+        if "[" in prompt:
+            print(line)
         response = match.group(2)
         return (prompt, response)
     else:
